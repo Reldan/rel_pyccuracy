@@ -1,0 +1,11 @@
+As a Reldan
+I want to kill all humans
+So that I can test justice
+
+Scenario 1 - Killing all humans
+Given
+    I take a shotgun
+When
+    I shot to man
+Then
+    I see he is dead

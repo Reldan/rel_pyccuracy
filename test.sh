@@ -1,0 +1,1 @@
+sudo pyccuracy_console -u http://google.com -A actions

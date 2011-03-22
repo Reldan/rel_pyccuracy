@@ -1,0 +1,14 @@
+As a user
+I want to be able to search
+So that I can find interesting content
+
+Scenario 1 - Logged in search
+Given
+    I am logged in with username "test_account" and password "test"
+    And I go to "/search.html"
+When
+    I see "search field" textbox
+    And I fill "search field" textbox with "pyccuracy rocks"
+    And I click "search" button and wait
+Then
+   I see "Search for pyccuracy rocks - My cool website" title
